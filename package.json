@@ -27,7 +27,7 @@
         "corbel",
         "corbel-js"
     ],
-    "author": "Daniel García",
+    "author": "Daniel García <danielon28@gmail.com>",
     "license": "Apache",
     "bugs": {
         "url": "https://github.com/bq/jskeleton-corbel/issues"
