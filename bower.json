@@ -1,0 +1,40 @@
+{
+    "name": "jskeleton-corbel",
+    "version": "0.0.0",
+    "homepage": "https://github.com/bq/jskeleton-corbel",
+    "authors": [
+        "danielon28@gmail.com",
+        "daniel.garcia@bq.com pedro.garrido@bq.com"
+    ],
+    "description": "jskeleton extension for the backend integration with corbel platform",
+    "moduleType": [
+        "amd",
+        "globals",
+        "node"
+    ],
+    "keywords": [
+        "jskeleton",
+        "jskeleton-framework",
+        "jskeleton-extension",
+        "js",
+        "marionette",
+        "backbone",
+        "corbel",
+        "corbel-js"
+    ],
+    "dependencies": {
+        "corbel-js": "latest",
+        "jskeleton": "git@github.com:bq/jskeleton.git#master"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5"
+    },
+    "license": "Apache",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

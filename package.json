@@ -1,0 +1,36 @@
+{
+    "name": "jskeleton-corbel",
+    "version": "0.0.0",
+    "description": "jskeleton extension for the backend integration with corbel platform",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bq/jskeleton-corbel.git"
+    },
+    "dependencies": {
+        "corbel-js": "latest",
+        "jskeleton": "latest"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5"
+    },
+    "keywords": [
+        "jskeleton",
+        "jskeleton-framework",
+        "jskeleton-extension",
+        "js",
+        "marionette",
+        "backbone",
+        "corbel",
+        "corbel-js"
+    ],
+    "author": "Daniel García",
+    "license": "Apache",
+    "bugs": {
+        "url": "https://github.com/bq/jskeleton-corbel/issues"
+    },
+    "homepage": "https://github.com/bq/jskeleton-corbel"
+}
