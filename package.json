@@ -12,7 +12,9 @@
     },
     "dependencies": {
         "corbel-js": "latest",
-        "jskeleton": "latest"
+        "jskeleton": "latest",
+        "backbone": "1.1.2",
+        "q": "1.0.1"
     },
     "devDependencies": {
         "grunt": "^0.4.5"
