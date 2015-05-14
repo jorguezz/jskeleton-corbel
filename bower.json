@@ -24,7 +24,9 @@
     ],
     "dependencies": {
         "corbel-js": "latest",
-        "jskeleton": "git@github.com:bq/jskeleton.git#master"
+        "jskeleton": "git@github.com:bq/jskeleton.git#master",
+        "backbone": "1.1.2",
+        "q": "1.0.1"
     },
     "devDependencies": {
         "grunt": "^0.4.5"
