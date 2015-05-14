@@ -31,11 +31,22 @@
 
     /* jshint unused: false */
 
+    //Expose corbel to JSkeleton
     JSkeleton.corbel = corbel;
 
-    var corbelDriver = JSkeleton.corbelDriver = corbel.getDriver();
+    //Extract corbelConfiguration from JSkeleton common module
+    var corbelConfig = JSkeleton.common.get('corbel');
 
-    JSkeleton.plugin('corbel', corbelDriver);
+    //Instantiate a new corbelDriver
+    var corbelDriver = JSkeleton.corbelDriver = corbel.getDriver(corbelConfig);
+
+    //Register as a JSkeleton plugin to require as a new dependency
+    JSkeleton.plugin('corbel', corbel.CorbelDriver);
+
+    //Register the instantiated corbelDriver as a dependency into the global JSkeleton injector
+    JSkeleton.di.inject({
+        'corbel': corbelDriver
+    });
 
     var _sync = Backbone.sync;
 
